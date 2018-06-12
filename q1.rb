@@ -1,16 +1,9 @@
-def solution(num)
-    puts num%2==0? "Even" : "Odd"
-end
+# num이 짝수일 경우 "Even", 홀수일 경우 "Odd"를 반환
 
-def solution2(num)
+class Integerquiz
+    
+def evencheck(num)
     num.even? ? "Even" : "Odd"
 end
 
-
-
-solution(2)
-solution(3)
-
-p solution2(2)
-p solution2(3)
-    
+end
