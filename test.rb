@@ -2,6 +2,7 @@ require 'test/unit'
 require_relative 'q1.rb'
 require_relative 'q2.rb'
 require_relative 'q3.rb'
+require_relative 'q4.rb'
 
 
 class TestInteger < Test::Unit::TestCase
@@ -25,6 +26,9 @@ class TestInteger < Test::Unit::TestCase
         assert_equal(4,Primetest.new.prime_num(10))
     end
     
+    def test_sum_d
+       assert_equal(18,Testsum.new.sum_d(10))
+    end
     
     
     
